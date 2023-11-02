@@ -1,0 +1,5 @@
+2023-10-11 11:32:42,830 INFO  [main] Initializing WebDriver
+2023-10-11 11:32:49,436 INFO  [main] Initializing WebDriver
+2023-10-11 11:32:50,552 INFO  [main] Initializing WebDriver
+2023-10-11 11:32:51,732 INFO  [main] Clicking on element jira.loginPage.continueSubmitButton
+2023-10-11 11:33:12,016 INFO  [main] Quitting WebDriver

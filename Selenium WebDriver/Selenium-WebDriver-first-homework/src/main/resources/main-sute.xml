@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Main Suite">
+    <test name="Web drivers homework">
+        <classes>
+            <class name="web.drivers.tests.SearchUsingGoogleChromeTest"/>
+            <class name="web.drivers.tests.SearchUsingGoogleChromeHeadlessTest"/>
+            <class name="web.drivers.tests.SearchUsingFirefoxTest"/>
+            <class name="web.drivers.tests.SearchUsingFirefoxHeadlessTest"/>
+            <class name="web.drivers.tests.SearchUsingMicrosoftEdgeTest"/>
+            <class name="web.drivers.tests.SearchUsingMicrosoftEdgeHeadlessTest"/>
+        </classes>
+    </test>
+</suite>
