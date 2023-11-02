@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Main Suite">
+    <test name="Rest assured exam">
+        <classes>
+            <class name="tests.getAccountInformationTest"/>
+            <class name="tests.CreateBoardTest"/>
+            <class name="tests.CreateNewListTest"/>
+            <class name="tests.CreateCardTest"/>
+            <class name="tests.UpdateCardTest"/>
+            <class name="tests.DeleteCreatedBoardTest"/>
+        </classes>
+    </test>
+</suite>
