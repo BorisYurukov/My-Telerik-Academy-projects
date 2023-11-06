@@ -1,14 +1,11 @@
 package com.jira.testframework.pages;
 
 import org.junit.Assert;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Action;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.openqa.selenium.Keys;
 
 import java.time.Duration;
 
@@ -90,7 +87,11 @@ public class UserActions {
         int defaultTimeout = Integer.parseInt(getConfigPropertyByKey("config.defaultTimeoutSeconds"));
         // 2. Use the method that checks for Element present
         // 3. Fail the test with meaningful error message in case the element is not present
-        waitForElementPresenceUntilTimeout(locator, defaultTimeout, arguments);
+        try {
+            waitForElementPresenceUntilTimeout(locator, defaultTimeout, arguments);
+        } catch (Exception exception) {
+            Assert.fail("Element was not found!");
+        }
     }
     public void  waitForElementToBeSelected(String locator, Object... arguments){
         int defaultTimeout = Integer.parseInt(getConfigPropertyByKey("config.defaultTimeoutSeconds"));
@@ -164,10 +165,6 @@ public class UserActions {
         }
     }
     public void pressEnterKey() {
-        // TODO: Implement the method
-        // 1. Initialize Actions
-
-        // 2. Perform key press
         Actions act=new Actions(driver);
         act.sendKeys(Keys.ENTER).perform();
     }
@@ -180,10 +177,6 @@ public class UserActions {
     }
 
     public void pressReturnKey() {
-        // TODO: Implement the method
-        // 1. Initialize Actions
-
-        // 2. Perform key press
         Actions act=new Actions(driver);
         act.sendKeys(Keys.RETURN).perform();
     }
@@ -197,6 +190,20 @@ public class UserActions {
 
     public void  switchTo(){
         driver.switchTo().activeElement().sendKeys("Story");
+    }
+
+
+    public void scrollToElement(String key,Object...arguments){
+        String locator = getLocatorValueByKey(key, arguments);
+        WebElement searchBox = getWebDriver().findElement(By.xpath(locator));
+
+        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", searchBox);
+    }
+    public void moveToElementAndClickOnIt(String key,Object...arguments){
+        String locator = getLocatorValueByKey(key, arguments);
+        WebElement element = driver.findElement(By.xpath(locator));
+        Actions actions = new Actions(driver);
+        actions.moveToElement(element).click().build().perform();
     }
 
 }

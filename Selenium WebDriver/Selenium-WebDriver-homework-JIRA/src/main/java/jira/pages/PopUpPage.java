@@ -1,6 +1,11 @@
 package jira.pages;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+import static com.jira.testframework.pages.Utils.getWebDriver;
 
 public class PopUpPage extends BaseJiraPage {
 
@@ -160,7 +165,8 @@ public class PopUpPage extends BaseJiraPage {
         actions.typeValueInField(issueToBeLinked, "jira.openedIssueLinkSearchBox");
         actions.pressEnterKey();
 
-        actions.waitForElementClickable("jira.openedIssueClickLinkButton");
+       actions.scrollToElement("jira.openedIssueClickLinkButton");
+
         actions.clickElement("jira.openedIssueClickLinkButton");
     }
 

@@ -1,0 +1,56 @@
+2023-11-06 00:27:13,926 INFO  [main] Initializing WebDriver
+2023-11-06 00:27:16,229 INFO  [main] Initializing WebDriver
+2023-11-06 00:27:17,086 INFO  [main] Initializing WebDriver
+2023-11-06 00:27:17,870 INFO  [main] Clicking on element trello.loginPage.loginButton
+2023-11-06 00:27:20,365 INFO  [main] Clicking on element trello.loginPage.loginSubmitButton
+2023-11-06 00:27:24,014 INFO  [main] Initializing WebDriver
+2023-11-06 00:27:24,058 INFO  [main] Clicking on element trello.header.create.menuButton
+2023-11-06 00:27:24,658 INFO  [main] Clicking on element trello.header.createBoard.dropDownButton
+2023-11-06 00:27:25,535 INFO  [main] Clicking on element trello.create.board.submitButton
+2023-11-06 00:27:25,590 INFO  [main] Initializing WebDriver
+2023-11-06 00:27:26,802 INFO  [main] Clicking on element trello.deleteBoardPageDropDownButton
+2023-11-06 00:27:27,473 INFO  [main] Clicking on element trello.deleteBoard.CloseBoardButton
+2023-11-06 00:27:27,561 INFO  [main] Clicking on element trello.deleteBoard.CloseBoardConfirmButton
+2023-11-06 00:27:28,230 INFO  [main] Clicking on element trello.deleteBoard.DeleteButton
+2023-11-06 00:27:28,276 INFO  [main] Initializing WebDriver
+2023-11-06 00:27:28,313 INFO  [main] Clicking on element trello.header.create.menuButton
+2023-11-06 00:27:28,408 INFO  [main] Clicking on element trello.header.createBoard.dropDownButton
+2023-11-06 00:27:28,747 INFO  [main] Clicking on element trello.create.board.submitButton
+2023-11-06 00:27:28,794 INFO  [main] Initializing WebDriver
+2023-11-06 00:27:30,021 INFO  [main] Clicking on element trello.boardsPageBlank
+2023-11-06 00:27:30,129 INFO  [main] Clicking on element trello.boardPage.AddListComposerButton
+2023-11-06 00:27:30,369 INFO  [main] Clicking on element trello.boardPage.AddListButton
+2023-11-06 00:27:35,521 INFO  [main] Clicking on element trello.boardPageAddCardButtons
+2023-11-06 00:27:40,771 INFO  [main] Clicking on element trello.boardsPageBlank
+2023-11-06 00:27:40,825 INFO  [main] Clicking on element trello.boardPage.AddListComposerButton
+2023-11-06 00:27:40,989 INFO  [main] Clicking on element trello.boardPage.AddListButton
+2023-11-06 00:27:46,503 INFO  [main] Initializing WebDriver
+2023-11-06 00:27:46,520 INFO  [main] Clicking on element trello.deleteBoardPageDropDownButton
+2023-11-06 00:27:47,133 INFO  [main] Clicking on element trello.deleteBoard.CloseBoardButton
+2023-11-06 00:27:47,189 INFO  [main] Clicking on element trello.deleteBoard.CloseBoardConfirmButton
+2023-11-06 00:27:47,277 INFO  [main] Clicking on element trello.deleteBoard.DeleteButton
+2023-11-06 00:27:47,316 INFO  [main] Initializing WebDriver
+2023-11-06 00:27:47,356 INFO  [main] Clicking on element trello.header.create.menuButton
+2023-11-06 00:27:47,447 INFO  [main] Clicking on element trello.header.createBoard.dropDownButton
+2023-11-06 00:27:47,816 INFO  [main] Clicking on element trello.create.board.submitButton
+2023-11-06 00:27:47,862 INFO  [main] Initializing WebDriver
+2023-11-06 00:27:49,081 INFO  [main] Initializing WebDriver
+2023-11-06 00:27:49,100 INFO  [main] Clicking on element trello.deleteBoardPageDropDownButton
+2023-11-06 00:27:49,207 INFO  [main] Clicking on element trello.deleteBoard.CloseBoardButton
+2023-11-06 00:27:49,273 INFO  [main] Clicking on element trello.deleteBoard.CloseBoardConfirmButton
+2023-11-06 00:27:49,358 INFO  [main] Clicking on element trello.deleteBoard.DeleteButton
+2023-11-06 00:27:49,393 INFO  [main] Initializing WebDriver
+2023-11-06 00:27:49,429 INFO  [main] Clicking on element trello.header.create.menuButton
+2023-11-06 00:27:49,533 INFO  [main] Clicking on element trello.header.createBoard.dropDownButton
+2023-11-06 00:27:49,882 INFO  [main] Clicking on element trello.create.board.submitButton
+2023-11-06 00:27:49,924 INFO  [main] Initializing WebDriver
+2023-11-06 00:27:51,120 INFO  [main] Clicking on element trello.boardsPageBlank
+2023-11-06 00:27:51,190 INFO  [main] Clicking on element trello.boardPage.AddListComposerButton
+2023-11-06 00:27:51,331 INFO  [main] Clicking on element trello.boardPage.AddListButton
+2023-11-06 00:27:56,475 INFO  [main] Clicking on element trello.boardPageAddCardButtons
+2023-11-06 00:28:01,721 INFO  [main] Initializing WebDriver
+2023-11-06 00:28:01,751 INFO  [main] Clicking on element trello.deleteBoardPageDropDownButton
+2023-11-06 00:28:02,375 INFO  [main] Clicking on element trello.deleteBoard.CloseBoardButton
+2023-11-06 00:28:02,442 INFO  [main] Clicking on element trello.deleteBoard.CloseBoardConfirmButton
+2023-11-06 00:28:02,539 INFO  [main] Clicking on element trello.deleteBoard.DeleteButton
+2023-11-06 00:28:02,602 INFO  [main] Quitting WebDriver

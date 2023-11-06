@@ -1,5 +1,27 @@
-2023-10-11 11:32:42,830 INFO  [main] Initializing WebDriver
-2023-10-11 11:32:49,436 INFO  [main] Initializing WebDriver
-2023-10-11 11:32:50,552 INFO  [main] Initializing WebDriver
-2023-10-11 11:32:51,732 INFO  [main] Clicking on element jira.loginPage.continueSubmitButton
-2023-10-11 11:33:12,016 INFO  [main] Quitting WebDriver
+2023-11-05 21:07:56,506 INFO  [main] Initializing WebDriver
+2023-11-05 21:07:59,848 INFO  [main] Initializing WebDriver
+2023-11-05 21:08:00,959 INFO  [main] Initializing WebDriver
+2023-11-05 21:08:02,443 INFO  [main] Clicking on element jira.loginPage.continueSubmitButton
+2023-11-05 21:08:03,147 INFO  [main] Clicking on element jira.loginPage.continueSubmitButton
+2023-11-05 21:08:03,193 INFO  [main] Initializing WebDriver
+2023-11-05 21:08:06,367 INFO  [main] Clicking on element jira.startPage.switchToJiraButton
+2023-11-05 21:08:10,446 INFO  [main] Clicking on element jira.startPage.existingProjectWithKey
+2023-11-05 21:08:11,361 INFO  [main] Clicking on element //a[@data-testid="navigation-apps-sidebar-software-classic.ui.menu.issues-link--item"]
+2023-11-05 21:08:14,577 INFO  [main] Initializing WebDriver
+2023-11-05 21:08:14,612 INFO  [main] Clicking on element jira.openedIssueRefreshButton
+2023-11-05 21:08:19,836 INFO  [main] Clicking on element jira.issues.checkIssueExistingByName
+2023-11-05 21:08:24,950 INFO  [main] Clicking on element jira.openedIssueLinkingIssueButton
+2023-11-05 21:08:28,691 INFO  [main] Initializing WebDriver
+2023-11-05 21:08:28,749 INFO  [main] Clicking on element jira.openedIssueClickLinkButton
+2023-11-05 21:08:28,946 INFO  [main] Initializing WebDriver
+2023-11-05 21:08:29,017 INFO  [main] Clicking on element jira.header.create.menuButton
+2023-11-05 21:08:34,297 INFO  [main] Clicking on element jira.newBugPopMenuUpIssueTypeButton
+2023-11-05 21:08:44,554 INFO  [main] Clicking on element jira.newBugPopUpMenuPriorityButton
+2023-11-05 21:08:44,916 INFO  [main] Clicking on element jira.newBugPopUpMenuCreateButton
+2023-11-05 21:08:46,186 INFO  [main] Clicking on element jira.openedIssueRefreshButton
+2023-11-05 21:08:46,902 INFO  [main] Initializing WebDriver
+2023-11-05 21:08:46,946 INFO  [main] Clicking on element jira.header.create.menuButton
+2023-11-05 21:08:52,084 INFO  [main] Clicking on element jira.newBugPopMenuUpIssueTypeButton
+2023-11-05 21:08:59,264 INFO  [main] Clicking on element jira.newBugPopUpMenuPriorityButton
+2023-11-05 21:08:59,666 INFO  [main] Clicking on element jira.newBugPopUpMenuCreateButton
+2023-11-05 21:08:59,873 INFO  [main] Clicking on element jira.openedIssueRefreshButton

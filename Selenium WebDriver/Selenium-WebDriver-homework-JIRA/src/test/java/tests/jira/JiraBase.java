@@ -18,10 +18,10 @@ public class JiraBase {
         UserActions.loadBrowser("jira.homePage");
     }
 
-    @AfterClass
-    public static void tearDown() {
-        UserActions.quitDriver();
-    }
+//    @AfterClass
+//    public static void tearDown() {
+//        UserActions.quitDriver();
+//    }
 
     @BeforeClass
     public static void login() {
